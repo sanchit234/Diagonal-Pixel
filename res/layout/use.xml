@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+   <ScrollView xmlns:android="http://schemas.android.com/apk/res/android" 
+        android:padding="10dip" android:layout_height="wrap_content" android:layout_width="wrap_content" android:scrollbarStyle="outsideOverlay" android:scrollbarFadeDuration="1">
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" android:scrollbars="vertical" android:scrollbarSize="20dp">
+
+        <LinearLayout
+            android:id="@+id/LinearLayout01"
+            android:layout_width="fill_parent" android:layout_height="300dp">
+
+            <ImageView
+                android:id="@+id/ImageView01"
+                android:layout_width="150dp"
+                android:background="@drawable/use1" android:layout_marginBottom="25dp" android:layout_height="225dp" android:layout_gravity="left"/>
+
+            <LinearLayout
+                android:id="@+id/LinearLayout02"
+                android:layout_width="wrap_content"
+                android:orientation="vertical" android:layout_height="fill_parent" android:layout_marginBottom="25dp">
+
+                <TextView
+                    android:id="@+id/TextView07"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="This is the basic UI of the Diagonal Pixel app."/>
+
+                <TextView
+                    android:id="@+id/TextView06"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1. Represents the 4 feature options to choose from."/>
+
+                <TextView
+                    android:id="@+id/TextView09"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2. Represents the tick and cross button. Long Click cross button to close the app."/>
+
+                <TextView
+                    android:id="@+id/TextView08"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3. Represents the image load button."/>
+
+                <TextView
+                    android:id="@+id/TextView05"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4. This is the button to save the image."/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout03"
+            android:layout_width="fill_parent"
+            android:layout_height="300dp" >
+
+            <ImageView
+                android:id="@+id/ImageView02"
+                android:layout_width="150dp"
+                android:layout_height="225dp"
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/use2" />
+
+            <LinearLayout
+                android:id="@+id/LinearLayout04"
+                android:layout_width="162dp"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" android:layout_marginBottom="25dp">
+
+                <TextView
+                    android:id="@+id/TextView02"
+                    android:layout_width="139dp"
+                    android:layout_height="fill_parent"
+                    android:text="A user can select any image from gallery to work on. And then he/she can click on any of the 4 options to choose various effects in each category. And thus can apply various effects on the selected image." />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="fill_parent"
+            android:layout_height="300dp">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="150dp"
+                android:layout_height="225dp"
+                android:background="@drawable/use3" android:layout_gravity="left"/>
+
+            <LinearLayout
+                android:id="@+id/linearLayout3"
+                android:layout_width="162dp"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/TextView01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="After applying the desired effect, click on tick to keep it or click on cross to revert back. After you are done with editing, the image can be saved and shared on various social media. " />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
